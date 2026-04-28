@@ -1,14 +1,16 @@
 {
-  "name": "@monorepo/app",
-  "version": "1.0.1",
-  "private": true,
+  "name": "@monorepo-zkj/app",
+  "version": "1.0.10",
   "type": "module",
   "scripts": {
     "dev": "node src/index.js",
     "build": "echo 'Building app'"
   },
   "dependencies": {
-    "@monorepo/ui": "workspace:*",
-    "@monorepo/utils": "workspace:*"
+    "@monorepo-zkj/ui": "workspace:*",
+    "@monorepo-zkj/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }

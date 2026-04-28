@@ -1,7 +1,6 @@
 {
-  "name": "@monorepo/ui",
-  "version": "1.0.1",
-  "private": true,
+  "name": "@monorepo-zkj/ui",
+  "version": "4.0.2",
   "type": "module",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
