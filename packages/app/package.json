@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "echo 'Building app'"
+  },
+  "dependencies": {
+    "@monorepo/ui": "workspace:*",
+    "@monorepo/utils": "workspace:*"
+  }
+}

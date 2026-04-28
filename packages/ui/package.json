@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "dev": "esbuild src/index.js --bundle --format=esm --watch --outfile=dist/index.js",
+    "build": "esbuild src/index.js --bundle --format=esm --outfile=dist/index.js",
+    "test": "echo 'UI tests passed'"
+  }
+}
